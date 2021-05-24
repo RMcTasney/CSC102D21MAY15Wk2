@@ -1,0 +1,11 @@
+body {
+    background-color: green;
+}
+
+.body p {
+    font-weight: bold;
+}
+
+.body .results{
+    font-weight: bold;
+}

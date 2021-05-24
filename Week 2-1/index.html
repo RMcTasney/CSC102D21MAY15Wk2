@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--UATSpace page
+    written by: James McTasney
+    -->
+
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="code.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James McTasney's UAT Craps Page</title>
+  </head>
+
+  <body class="body">
+
+    <h1>
+      James' UAT Craps Site
+      <!--Header 1-->
+    </h1>
+    
+    <br />
+
+    <p>This is a Craps game.  The rules are: <br>
+        If the sum of what you roll is 7 or 11, you lose. <br>
+        If each die is the same even number, such as 2 and 2, you win. <br>
+        If neither of the above is true, then you roll again. 
+    </p>
+    <br />
+    <h2>Hit button below to play game</h2>
+    <!--Space for the craps game-->
+
+    <div id="die1Results">die1 status...</div>
+    <br />
+    <div id="die2Results">die2 status...</div>
+    <br />
+    <div id="sumResults">sum status...</div>
+    <br />
+    <div class="results" id="crapsResults">Craps game status...</div>
+    <br />
+    <button onclick="playCraps()">Play Craps</button>
+  </body>
+</html>
